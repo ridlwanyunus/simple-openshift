@@ -25,12 +25,6 @@ public class MenuController {
 	
 	@GetMapping(value="/layout")
 	public String layoutView() {
-//		User user = new User();
-//		user.setUsername("user");
-//		user.setPassword(passwordEncoder.encode("user"));
-//		user.setRole("guest");
-//		
-//		userRepository.save(user);
 		return "layout";
 	}
 }
