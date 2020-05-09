@@ -5,6 +5,6 @@ services:
       image: simple-openshift:latest
       ports:
          - '8282:8282'
-      env-file:
+      env_file:
          - ./env.list
       
